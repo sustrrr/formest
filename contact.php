@@ -67,7 +67,7 @@ if($_POST) {
     $headers  = 'MIME-Version: 1.0' . "\r\n"
     .'Content-type: text/html; charset=utf-8' . "\r\n"
     .'From: ' . $visitor_email . "\r\n";
-    header("Location: https://capable-pegasus-b8821a.netlify.app/);
+    header("Location: https://rad-crisp-c51daf.netlify.app/);
       
     if(mail($recipient, $email_title, $email_body, $headers)) {
         echo "<p>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>";
